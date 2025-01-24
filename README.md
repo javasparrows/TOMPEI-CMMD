@@ -11,17 +11,21 @@ This repository provides sample Python code to **view, overlay, and inspect** se
 ├── overlay_json.py       # Overlays annotation polygons (from JSON) onto a DICOM image
 ├── get_info_from_dicom.py  # Reads DICOM metadata, including potential private-tag annotations
 ├── overlay_json.ipynb    # Jupyter notebook version of overlay_json.py
+├── overlay_images_save.py # Overlays annotation polygons on DICOM images and saves them (batch processing)
 ├── requirements.txt      # Dependencies
 └── README.md             # This file
 ```
 
 ### overlay_json.py
+
 - Reads a DICOM file and JSON polygons (`cgPoints`), then draws these overlays on the mammogram and saves as a PNG.
 
 ### get_info_from_dicom.py
+
 - Checks certain private DICOM tags (e.g., `(0x0013, 0x1010)`) for mask/label data, then prints them.
 
 ### overlay_json.ipynb
+
 - Jupyter notebook version for interactive demonstration.
 
 ---
@@ -46,7 +50,7 @@ This repository provides sample Python code to **view, overlay, and inspect** se
    jupyter notebook overlay_json.ipynb
    ```
 
-*(Adjust file paths as needed.)*
+_(Adjust file paths as needed.)_
 
 ---
 
