@@ -1,0 +1,100 @@
+cff-version: 1.2.0
+message: "If you use the TOMPEI-CMMD dataset, please cite it as listed under preferred-citation, and follow the TCIA data usage policy."
+type: software
+title: TOMPEI-CMMD sample code
+abstract: >-
+  Sample Python code to view, overlay, and inspect the TOMPEI-CMMD dataset
+  published on The Cancer Imaging Archive (TCIA). TOMPEI-CMMD adds lesion
+  segmentation annotations (polygon masks for benign and malignant lesions)
+  and corrected laterality/view labels to the Chinese Mammography Database
+  (CMMD), for developing and validating breast cancer detection AI.
+authors:
+  - family-names: Kashiwada
+    given-names: Yuki
+    orcid: "https://orcid.org/0009-0005-3530-2564"
+repository-code: "https://github.com/javasparrows/TOMPEI-CMMD"
+url: "https://yukikashiwada.com/en/research/tompei-cmmd"
+keywords:
+  - mammography
+  - breast cancer
+  - dataset
+  - segmentation
+  - lesion annotation
+  - CMMD
+  - The Cancer Imaging Archive
+preferred-citation:
+  type: data
+  title: TOMPEI-CMMD Dataset
+  authors:
+      - family-names: Kashiwada
+        given-names: Yuki
+        orcid: "https://orcid.org/0009-0005-3530-2564"
+      - family-names: Takaya
+        given-names: Eichi
+        orcid: "https://orcid.org/0000-0003-2541-1685"
+      - family-names: Hiroya
+        given-names: Mei
+        orcid: "https://orcid.org/0009-0000-4617-934X"
+      - family-names: Matsuda
+        given-names: Nanako
+        orcid: "https://orcid.org/0009-0005-7457-6955"
+      - family-names: Yashima
+        given-names: Takumi
+        orcid: "https://orcid.org/0009-0002-1800-8409"
+      - family-names: Kobayashi
+        given-names: Tomoya
+        orcid: "https://orcid.org/0000-0001-8179-1702"
+      - family-names: Tamiya
+        given-names: Gen
+        orcid: "https://orcid.org/0000-0002-0597-415X"
+      - family-names: Ueda
+        given-names: Takuya
+        orcid: "https://orcid.org/0000-0002-0913-5791"
+  publisher:
+    name: The Cancer Imaging Archive
+  version: "1"
+  year: 2025
+  doi: 10.7937/wezw-bh22
+  url: "https://www.cancerimagingarchive.net/analysis-result/tompei-cmmd/"
+  license: CC-BY-4.0
+references:
+  - type: article
+    title: >-
+      Applying vision transformer to assess multi-scale morphological features
+      in mammography for breast cancer detection: multiscale image
+      morphological extraction vision transformer (MIME-ViT)
+    authors:
+        - family-names: Kashiwada
+          given-names: Yuki
+          orcid: "https://orcid.org/0009-0005-3530-2564"
+        - family-names: Takaya
+          given-names: Eichi
+          orcid: "https://orcid.org/0000-0003-2541-1685"
+        - family-names: Hiroya
+          given-names: Mei
+          orcid: "https://orcid.org/0009-0000-4617-934X"
+        - family-names: Matsuda
+          given-names: Nanako
+          orcid: "https://orcid.org/0009-0005-7457-6955"
+        - family-names: Yashima
+          given-names: Takumi
+          orcid: "https://orcid.org/0009-0002-1800-8409"
+        - family-names: Kobayashi
+          given-names: Tomoya
+          orcid: "https://orcid.org/0000-0001-8179-1702"
+        - family-names: Tamiya
+          given-names: Gen
+          orcid: "https://orcid.org/0000-0002-0597-415X"
+        - family-names: Ueda
+          given-names: Takuya
+          orcid: "https://orcid.org/0000-0002-0913-5791"
+    journal: PeerJ Computer Science
+    volume: 11
+    start: e3252
+    year: 2025
+    doi: 10.7717/peerj-cs.3252
+  - type: data
+    title: The Chinese Mammography Database (CMMD)
+    authors:
+      - name: The Cancer Imaging Archive
+    doi: 10.7937/tcia.eqde-4b16
